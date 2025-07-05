@@ -1,10 +1,10 @@
 #if statement
 
 playerHealth= 100
-swordDamage = 10
+healingPotion = 50
 print(playerHealth)
-#assume swordhastouched the player
+#assume player used potion
 if True:
-    playerHealth = playerHealth -swordDamage
+    playerHealth += healingPotion
 
 print(playerHealth)
